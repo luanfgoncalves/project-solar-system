@@ -7,3 +7,4 @@ class App extends React.Component {
 }
 
 export default App;
+// ALteração inicial para abrir PR - ME EXCLUA
