@@ -1,10 +1,15 @@
 import React from 'react';
+import Header from './components/Header';
 
 class App extends React.Component {
   render() {
-    return (<p>Sistema Solar</p>);
+    return (
+      <body>
+        <Header />
+        <p>Sistema Solar</p>
+      </body>
+    );
   }
 }
 
 export default App;
-// ALteração inicial para abrir PR - ME EXCLUA
