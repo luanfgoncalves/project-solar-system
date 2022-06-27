@@ -2,14 +2,16 @@ import React from 'react';
 import Header from './components/Header';
 import SolarSystem from './components/SolarSystem';
 import Title from './components/Title';
-Import PlanetCard
+import PlanetCard from './components/PlanetCard';
 
 class App extends React.Component {
   render() {
     return (
       <body>
         <Header />
-        <p>Sistema Solar</p>
+        <SolarSystem>
+          <p> --- referencia --- </p>
+        </SolarSystem>
       </body>
     );
   }

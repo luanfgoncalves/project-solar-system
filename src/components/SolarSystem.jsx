@@ -3,7 +3,9 @@ import React from 'react';
 class SolarSystem extends React.Component {
   render() {
     return (
-      <section>| SolarSystem |</section>
+      <div data-testid="solar-system">
+        <p> Component: SolarSystem</p>
+      </div>
     );
   }
 }
