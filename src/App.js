@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
 import SolarSystem from './components/SolarSystem';
-// import PlanetCard from './components/PlanetCard';
 // import Missions from './components/Missions';
 // import MissionCard from './componets/MissionCard';
 
@@ -10,9 +9,7 @@ class App extends React.Component {
     return (
       <body>
         <Header />
-        <SolarSystem>
-          <p> --- referencia --- </p>
-        </SolarSystem>
+        <SolarSystem />
       </body>
     );
   }
