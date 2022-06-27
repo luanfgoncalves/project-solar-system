@@ -1,3 +1,11 @@
 .App {
   text-align: center;
 }
+
+.solarSystem{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+}
+
+/* .SolarSystem é um teste, lembre de excluir */
